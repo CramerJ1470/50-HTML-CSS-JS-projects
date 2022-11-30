@@ -1,15 +1,14 @@
-const API_URL =
-	"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=<<api-key>>&language=en-US&page=1";
+// get API_KEY from themoviedb.org or in your .env
+
+const API_URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&language=en-US&page=1`;
 
 console.log(API_URL);
 
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
-const SEARCH_URL =
-	'https://api.themoviedb.org/3/search/movie?api_key=<<api-key>>&query="';
+const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query="`;
 
-const PIXAR_SEARCH =
-	"https://api.themoviedb.org/3/discover/movie?with_genres=16&api_key=<<api-key>>&language=en-US&pages";
+const PIXAR_SEARCH = `https://api.themoviedb.org/3/discover/movie?with_genres=16&api_key=${API_KEY}&language=en-US&pages`;
 
 const form = document.getElementById("form");
 const search = document.getElementById("search");
