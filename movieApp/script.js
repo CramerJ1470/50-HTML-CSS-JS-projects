@@ -1,15 +1,15 @@
 const API_URL =
-	"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=9a317dc8a7d6e39cd7b4328a1b6d65e5&language=en-US&page=1";
+	"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=<<api-key>>&language=en-US&page=1";
 
 console.log(API_URL);
 
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
 const SEARCH_URL =
-	'https://api.themoviedb.org/3/search/movie?api_key=9a317dc8a7d6e39cd7b4328a1b6d65e5&query="';
+	'https://api.themoviedb.org/3/search/movie?api_key=<<api-key>>&query="';
 
 const PIXAR_SEARCH =
-	"https://api.themoviedb.org/3/discover/movie?with_genres=16&api_key=9a317dc8a7d6e39cd7b4328a1b6d65e5&language=en-US&pages";
+	"https://api.themoviedb.org/3/discover/movie?with_genres=16&api_key=<<api-key>>&language=en-US&pages";
 
 const form = document.getElementById("form");
 const search = document.getElementById("search");
